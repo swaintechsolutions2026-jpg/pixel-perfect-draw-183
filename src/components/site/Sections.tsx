@@ -80,7 +80,7 @@ export function Tours() {
         </div>
 
         <div className="mt-14 grid gap-6 lg:grid-cols-12">
-          <TourCard t={feature} className="aspect-[4/5] sm:aspect-[16/11] lg:col-span-7 lg:aspect-auto lg:min-h-[640px]" big />
+          <TourCard t={feature!} className="aspect-[4/5] sm:aspect-[16/11] lg:col-span-7 lg:aspect-auto lg:min-h-[640px]" big />
           <div className="no-scrollbar -mx-5 flex snap-x gap-4 overflow-x-auto px-5 lg:col-span-5 lg:mx-0 lg:grid lg:grid-cols-2 lg:gap-6 lg:overflow-visible lg:px-0">
             {rest.map((t) => (
               <TourCard key={t.title} t={t} className="aspect-[3/4] w-[75vw] shrink-0 snap-start sm:w-[45vw] lg:w-auto" />
@@ -248,8 +248,8 @@ export function Gallery() {
       </div>
       {idx !== null && (
         <div role="dialog" aria-modal="true" aria-label="Image viewer" className="animate-fade fixed inset-0 z-[60] flex items-center justify-center bg-overlay/95 p-4" onClick={() => setIdx(null)}>
-          <img key={idx} src={gallery[idx].src} alt={gallery[idx].alt} className="animate-rise max-h-[85vh] max-w-full object-contain" onClick={(e) => e.stopPropagation()} />
-          <p className="absolute bottom-6 left-0 right-0 text-center text-sm text-primary-foreground/80">{gallery[idx].alt}</p>
+          <img key={idx} src={gallery[idx]!.src} alt={gallery[idx]!.alt} className="animate-rise max-h-[85vh] max-w-full object-contain" onClick={(e) => e.stopPropagation()} />
+          <p className="absolute bottom-6 left-0 right-0 text-center text-sm text-primary-foreground/80">{gallery[idx]!.alt}</p>
           <button aria-label="Close" className="absolute right-4 top-4 grid h-12 w-12 place-items-center rounded-full text-primary-foreground hover:bg-primary-foreground/10" onClick={() => setIdx(null)}><X /></button>
           <button aria-label="Previous" className="absolute left-2 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-primary-foreground hover:bg-primary-foreground/10" onClick={(e) => { e.stopPropagation(); setIdx((idx - 1 + gallery.length) % gallery.length); }}><ChevronLeft /></button>
           <button aria-label="Next" className="absolute right-2 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full text-primary-foreground hover:bg-primary-foreground/10" onClick={(e) => { e.stopPropagation(); setIdx((idx + 1) % gallery.length); }}><ChevronRight /></button>
