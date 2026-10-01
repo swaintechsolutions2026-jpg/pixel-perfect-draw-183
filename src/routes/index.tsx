@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
       { title: "Sum Holidays — Tours, Destinations & Holiday Packages" },
       { name: "description", content: "Sum Holidays plans memorable adventure tours, family holidays and getaways across India. Explore destinations and plan your trip." },
       { property: "og:title", content: "Sum Holidays — Your next adventure starts here" },
-      { property: "og:description", content: "Adventure tours, family holidays and getaways across India, planned with care." },
+      { property: "og:description", content: "Sum Holidays tours, family holidays and getaways across India, planned with care." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
