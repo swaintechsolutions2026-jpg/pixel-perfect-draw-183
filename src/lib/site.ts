@@ -29,7 +29,7 @@ export const nav = [
 ];
 
 export const tours = [
-  { title: "Adventure Tours", place: "Himalayas & Rivers", text: "Rafting, treks and high trails for travellers who want their pulse to rise.", img: rafting, w: 1280, h: 960 },
+  { title: "Sum Holidays Tours", place: "Himalayas & Rivers", text: "Rafting, treks and high trails for travellers who want their pulse to rise.", img: rafting, w: 1280, h: 960 },
   { title: "Couple Getaways", place: "Coast & Hills", text: "Slow sunsets, quiet beaches and time that belongs to just the two of you.", img: goa, w: 1280, h: 960 },
   { title: "Family Holidays", place: "Nature trails", text: "Easy-paced journeys with something wonderful for every age.", img: northeast, w: 1024, h: 1280 },
   { title: "Cultural Journeys", place: "Heritage India", text: "Temples, forts and living traditions told through the places themselves.", img: odisha, w: 1024, h: 1280 },
