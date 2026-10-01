@@ -10,8 +10,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "test:visual": "playwright test",
-    "test:visual:update": "playwright test --update-snapshots"
+    "test:visual": "npx playwright test",
+    "test:visual:update": "npx playwright test --update-snapshots"
   },
   "overrides": {
     "rolldown": "1.2.1"
