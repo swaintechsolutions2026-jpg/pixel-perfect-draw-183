@@ -17,7 +17,7 @@ export function Hero() {
       <div className="hero-scrim absolute inset-0" />
       <div className="relative mx-auto w-full max-w-7xl px-5 pb-16 pt-32 md:px-8 md:pb-24">
         <p className="eyebrow animate-rise text-sand" style={{ animationDelay: "200ms" }}>
-          Adventure Holiday • Explore • Experience • Remember
+          Sum Holidays • Explore • Experience • Remember
         </p>
         <h1 className="display animate-rise mt-5 max-w-4xl text-[2.7rem] text-primary-foreground sm:text-6xl lg:text-[5.6rem]" style={{ animationDelay: "350ms" }}>
           Your next adventure <em className="font-normal italic text-sand">starts here</em>
@@ -46,7 +46,7 @@ export function Intro() {
           <p className="eyebrow text-accent">Travel beyond the ordinary</p>
           <h2 className="display mt-5 text-4xl text-primary md:text-6xl">Some journeys become memories for a lifetime.</h2>
           <p className="mt-7 max-w-md text-muted-foreground md:text-lg">
-            Adventure Holiday plans journeys around how you want to feel — curious, free, rested or thrilled. From quiet backwaters to high mountain trails, we shape each trip with care so you can simply show up and explore.
+            Sum Holidays plans journeys around how you want to feel — curious, free, rested or thrilled. From quiet backwaters to high mountain trails, we shape each trip with care so you can simply show up and explore.
           </p>
           <a href="#about" className="mt-8 inline-flex items-center gap-2 border-b-2 border-accent pb-1 text-sm font-bold uppercase tracking-widest text-primary">
             Our approach <ArrowRight className="h-4 w-4" />
@@ -150,7 +150,7 @@ export function WhyUs() {
     <section className="bg-secondary py-24 md:py-32">
       <div className="mx-auto grid max-w-7xl gap-14 px-5 md:px-8 lg:grid-cols-12">
         <div className="reveal lg:col-span-4">
-          <p className="eyebrow text-accent">Why Adventure Holiday</p>
+          <p className="eyebrow text-accent">Why Sum Holidays</p>
           <h2 className="display mt-4 text-4xl text-primary md:text-5xl">Travel with confidence</h2>
         </div>
         <ul className="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:col-span-8">
@@ -267,10 +267,10 @@ export function About() {
           <img src={images.northeast} alt="Family crossing a living root bridge" loading="lazy" width={1024} height={1280} className="h-full w-full object-cover" />
         </div>
         <div className="reveal">
-          <p className="eyebrow text-accent">About Adventure Holiday</p>
+          <p className="eyebrow text-accent">About Sum Holidays</p>
           <h2 className="display mt-4 text-4xl text-primary md:text-5xl">Journeys planned with heart, for travellers with curiosity.</h2>
           <p className="mt-6 text-muted-foreground md:text-lg">
-            [Placeholder] Adventure Holiday is a travel company creating holiday and adventure experiences across India and beyond. Replace this paragraph with the company's own story when it's ready.
+            [Placeholder] Sum Holidays is a travel company creating holiday and adventure experiences across India and beyond. Replace this paragraph with the company's own story when it's ready.
           </p>
           <ul className="mt-8 space-y-4">
             {["Trips tailored to families, couples, friends and groups", "Destinations from mountains to beaches to heritage cities", "Support from first enquiry to journey's end"].map((p) => (
@@ -357,7 +357,7 @@ export function Footer() {
     <footer className="bg-primary py-16 text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-12 md:px-8">
         <div className="md:col-span-5">
-          <p className="display text-3xl">Adventure <span className="text-accent">Holiday</span></p>
+          <p className="display text-3xl">Sum <span className="text-accent">Holidays</span></p>
           <p className="mt-4 max-w-sm text-primary-foreground/75">Memorable holiday and adventure experiences across India and beyond.</p>
           <div className="mt-6 flex gap-3">
             {[{ I: Instagram, h: s.instagram, l: "Instagram" }, { I: Facebook, h: s.facebook, l: "Facebook" }, { I: Youtube, h: s.youtube, l: "YouTube" }, { I: MessageCircle, h: s.whatsapp, l: "WhatsApp" }].map(({ I, h, l }) => (
@@ -377,7 +377,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-14 flex max-w-7xl flex-col justify-between gap-3 border-t border-primary-foreground/15 px-5 pt-6 text-xs text-primary-foreground/60 sm:flex-row md:px-8">
-        <p>© {new Date().getFullYear()} Adventure Holiday. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Sum Holidays. All rights reserved.</p>
         <div className="flex gap-6"><a href="#" className="hover:text-accent">Privacy Policy</a><a href="#" className="hover:text-accent">Terms &amp; Conditions</a></div>
       </div>
     </footer>

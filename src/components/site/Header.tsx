@@ -27,8 +27,8 @@ export function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 md:px-8">
         <a href="#home" className={`flex flex-col leading-none ${solid ? "text-primary" : "text-primary-foreground"}`}>
-          <span className="display text-xl md:text-2xl">Adventure</span>
-          <span className="eyebrow mt-1 text-[0.6rem] text-accent">Holiday</span>
+          <span className="display text-xl md:text-2xl">Sum</span>
+          <span className="eyebrow mt-1 text-[0.6rem] text-accent">Holidays</span>
         </a>
 
         <nav aria-label="Primary" className="hidden lg:block">
