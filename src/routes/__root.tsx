@@ -78,8 +78,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sum Holidays" },
-      { name: "description", content: "Sum Holidays tours and holiday packages across India." },
+      { title: "Adventure Holiday" },
+      { name: "description", content: "Adventure tours and holiday packages across India." },
     ],
     links: [
       {
